@@ -56,8 +56,6 @@ void setup() {
   t8 = new Triangle(#1E9D7E, 90, 45, 20, 20, 2, 5);
   t9 = new Triangle(#C6FFF1, 800, 400, 50, 50, -15, 2);
   t10 = new Triangle(#EADC8C, 80, 900, 20, 50, 10, 5);
-
-  
   
 }
 
