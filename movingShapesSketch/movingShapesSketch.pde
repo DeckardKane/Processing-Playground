@@ -122,4 +122,13 @@ void draw() {
   
   t10.bounce();
   t10.display();
+  
+  if (mousePressed) {
+    
+    stopShape();
+    println("Stopped!");
+    
+    
+  }
+    
 }

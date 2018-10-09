@@ -67,16 +67,44 @@ class Shape {
     }
   }
 
+
+  /*
   void stopShape() {
 
+    int xspeedprev = xspeed;
+    int yspeedprev = yspeed;
+    
     xspeed = 0;
     yspeed = 0;
+    
     
     xspeed = int(random(-100,100));
     yspeed = int(random(-100,100));
     println(xspeed + " " + yspeed);
     
+    
+    delay(1000);
+    
+    xspeed = xspeedprev;
+    yspeed = yspeedprev;
+    
+    
   }
+  */
+  
+  void orderChaos() {
+  
+    int xspeedprev = xspeed;
+    int yspeedprev = yspeed;
+    
+    xspeed = 0;
+    yspeed = 0;
+    
+    line(xpos,ypos, 0, 0);
+    println("Line drawn!");
+    
+  }
+  
 }
 
 class Triangle extends Shape {
